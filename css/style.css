@@ -331,7 +331,7 @@ nav li:hover > .sub-menu {
   display: inline-block;
 }
 .rating {
-  color: orange;
+  color: rgb(248, 164, 7);
   font-size: 15px;
   font-weight: 600;
 }
@@ -446,8 +446,8 @@ textarea {
   font-size: 18px;
 }
 .single-box:hover {
-  background: var(--black);
-  color: var(--btn-color);
+  background: var(--btn-color);
+  color: var(--black);
 }
 
 /* Footer Part Start  */
