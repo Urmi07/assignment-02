@@ -408,11 +408,11 @@ nav li:hover > .sub-menu {
 }
 .contact-box .single-box {
   flex: 1;
-  border-radius: 30px;
+  border: 30px;
   text-align: center;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0;
-  box-shadow: 0 0 12px #00000082;
+  
   padding: 30px 0;
   color: var(--text-color);
   transition: 0.3s;
@@ -440,17 +440,13 @@ textarea {
   font-weight: 600;
   outline: none;
 }
-.contact-form form input:focus,
-textarea:focus {
-  box-shadow: 0 0 10px var(--btn-color);
-}
+
 .contact-form .btn {
   padding: 16px 80px;
   font-size: 18px;
 }
 .single-box:hover {
   background: var(--black);
-  box-shadow: 0 0 7px 1px var(--btn-color);
   color: var(--btn-color);
 }
 
