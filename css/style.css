@@ -14,11 +14,11 @@
   --popping: "Poppins", sans-serif;
 }
 
-* {
+/* * { 
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+}*/
 body {
   overflow-x: hidden;
   color: var(--text-color);
@@ -65,7 +65,7 @@ ul {
   border-radius: 0px;
 }
 .btn i {
-  transition: all 0.3s;
+  transition: all 0.1s;
   opacity: 0;
   visibility: hidden;
 }
@@ -211,7 +211,7 @@ nav li:hover > .sub-menu {
   line-height: 30px;
 }
 
-/* Client Logo Start  */
+/* ------Client Logo Start  */
 
 .client-logo .container {
   display: flex;
@@ -232,13 +232,13 @@ nav li:hover > .sub-menu {
   position: absolute;
   bottom: 0;
   left: 50%;
-  background: var(--btn-color);
+
   width: 40%;
   height: 5px;
   transform: translateX(-50%);
 }
 .section-heading:after {
-  background: var(--text-color);
+  
   width: 10%;
   border-left: 15px solid var(--white);
   border-right: 15px solid var(--white);
@@ -256,13 +256,13 @@ nav li:hover > .sub-menu {
   position: absolute;
   bottom: 0;
   left: 50%;
-  background: var(--btn-color);
+  
   width: 40%;
   height: 5px;
   transform: translateX(-50%);
 }
 .section-heading:after {
-  background: var(--text-color);
+ 
   width: 10%;
   border-left: 15px solid var(--white);
   border-right: 15px solid var(--white);
@@ -270,9 +270,8 @@ nav li:hover > .sub-menu {
 .single-product .img {
   height: 265px;
   width: 100%;
-  background-color: var(--text-color);
+  
   border-radius: 15px;
-
   margin-bottom: 20px;
   position: relative;
 }
@@ -468,7 +467,7 @@ textarea {
 }
 .social-icons i {
   display: inline-block;
-  background: var(--btn-color);
+  background: var(--footer-text);
   border-radius: 50%;
   width: 50px;
   height: 50px;
