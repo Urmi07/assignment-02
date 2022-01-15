@@ -390,7 +390,7 @@ nav li:hover > .sub-menu {
   top: 50%;
 }
 .see-more {
-  text-align: center;
+  text-align: right;
   margin-top: 65px;
 }
 .btn-text {
